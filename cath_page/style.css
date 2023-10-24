@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(50, 123, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .title{    
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+header .title h1{
+    color: white;  
+    font-family: sans-serif; 
+}
+
+section .content{
+    display: flex;
+    
+}
+section .content img{
+    background-size: cover;
+    width: 100vw;
+}
+
+section .content {
+    display: flex;   
+    justify-content: flex-end;
+
+}
+
+section .content .form{
+    background-color: rgb(50, 123, 126);
+    width: 50vh;
+    height:60vh;
+    position: absolute;    
+    opacity: 0.5;
+    margin-right:10vh ;
+    margin-top: 10vh;
+    
+}
+
+footer{
+    height: 50vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .img-cather{
+    background-color: red;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .description{
+    background-color: blue;    
+    width: 30rem;
+    padding: 30px;
+    margin-top: 4rem;
+    font-family: sans-serif;
+}
